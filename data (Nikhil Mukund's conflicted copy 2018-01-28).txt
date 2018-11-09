@@ -1,0 +1,846 @@
+Question : How do gravitational waves interact with matter?
+
+Answer : They don't, really - not in the way you would expect light or radio waves to interact with matter. They pass through everything, stretching the space they are in slightly in the process. 
+
+-JS /PhD student, high power laser development, Hannover/Germany
+
+Question : What were your first thoughts when you realized you had made such a huge discovery? 
+
+Answer : We did not believe it.  It was weeks before we believed it.  At first we all thought that it was an injected signal of some sort.  But once we realized that it was not we started getting pretty excited.  The biggest problem was just that it seemed too perfect.  With a signal-to-noise ratio of ~24 it was crystal clear in the data and it had the perfect "chirp" frequency pattern.  It looked inauthentic at first.  We were expecting to barely detect something if we did, as opposed to having a large, blatant signal.
+
+-VR PhD Student U of Oregon, LIGO WA Site
+
+Question : How are gravitational waves affected by inflation?
+
+Answer : This is my favourite question! 
+
+1. The GWs from Inflation [for most of the Inflationary models!] are at very low frequencies. So, if you are talking about interference of those with GWs from compact objects (such as BHs, NSs) - which is possible, we may see some modulation [from interference] in frequency as well as amplitude domain. However, the predicted GWs from Inflation are at very very low amplitudes as well (besides the low frequency!), roughly in the 1.0e-30 - 1.0e-27 range. This makes them really hard to separate by de-modulation, in frequency as well as amplitude.
+
+2. If you are wondering about emission of GWs from Inflation, we are not currently able to detect those because of their extremely small amplitudes. Also, at low frequencies of primordial GWs (from Inflation), Seismic noise in ground-based detectors is overwhelming. We will have to wait for eLISA to sort out the primordial GWs. However, it is possible to see their effect on CMB (Cosmic Microwave Background) photons' polarisations, which is what BICEP2 was trying to accomplish.
+
+3. One could argue if there are Inflationary models which predict louder Primordial GWs. A: We haven't see any such stochastic background, if it is loud enough. B: Models predicting loud GW emissions are currently ruled out by Planck mission results [CMB].
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : If a gravitational wave was powerful enough, would a human be able to feel/experience it going through them?
+
+Answer : Myself and one of my supervisors had a conversation about this a few weeks ago. We did some calculations which suggest that if you were in a space-ship close to the merging black holes you would feel a force which was pretty comparable to the force you feel by standing next to a loudspeaker at a music concert. You'd feel a vibration travelling through your body, but we were pretty confident it wouldn't hurt you! 
+
+-- DW (I work on burst [transient events] searches, and I'm at the University of Glasgow, Scotland)
+
+Question : Does the confirmation of these exceedingly—difficult-to-detect gravitational waves force any re-calculations of existing physics ‘canon’?
+
+Answer : Not yet!  Everything about this first detection falls in line with our expectations from what we know about physics.  The rate at which binary black holes form in nature and the masses of the binary black holes are consistent with theoretical predictions (mostly because those predictions were *very* broad).  And the signal itself matches what we expect from general relativity to as-well-as-we-can-measure for this event.  We will be watching future events very careful for any departures from theory.  That is when the *real* fun begins.  --TBL
+
+Question : First of all congratulations on the result. My university and some of my professors are part of the VIRGO collaboration and I've even visited VIRGO recently, so this was even more exciting.  
+My question: how is it even conceivable to measure such a small distance? That seriously blows my mind. I know that interferometers are really accurate, but we are talking about fractions of the radius of a proton here! How is that small change amplified so much to be measurable?
+
+Answer : An interferometer measures the length change relative to the wavelength of the light - so already we're at 10^-7 m. Now we're looking at detecting the fringe shift at the output of the interferometer, which we can detect to a sensitivity of 10^-9 at a power of 1mW (we're operating at a dark port configuration, which means hardly any power leaves the interferometer - there is a buildup of a few hundred kW in the arms!). By sending the signal back into the interferometer to let it build up as well, we can increase that sensitivity to 10^-13, which already enables us to detect a length change of 10^-20 m. However, the arms are several kilometers long, and we're detecting the length change relative to the entire arm - this puts us at our design sensitivity of up to 10^-23. 
+
+-Justus S /PhD student, high power laser development, Hannover/Germany
+
+Question : Just pointing out that even though we don't have spokespeople around to reply on this account, we have many LIGO members answering from LIGO_WA, LIGO_LA, EGO_VIRGO, LIGO_Instrumentation, and LIGO_Astrophysics!
+
+Answer : I was hired on to the cleaning crew of the beam tube at the facility in Livingston, Louisiana. The job was given to me through a work contractor called Savard, and it was truly an honor to be apart of that operation. I absolutely LOVED going to work every day, learning something new all the time, meeting incredible people, and touring the facility. Ray Weiss even gave me his autograph on my last day of work. Working for LIGO was honestly the greatest job I have ever had and I will never forget my time there.
+Anyways, my question is are y'all planning on cleaning the beam tube again? :]
+
+Question : How do you feel about your career now as compared to before the discovery? Do you feel more recognized, more "useful" by being part of what seems to be a new frontier of astronomy? I am not indicating that one should feel bad if they do not make a huge discovery, but it must have some impact.
+
+Answer : A couple of weeks ago I was having lunch with some members of my department. We were discussing the sometimes-awkward conversations you have on e.g. airplanes when a stranger asks “so what do you do for a living?” The secret, as it turns out, is to just say “astronomy” — because it’s apparently a little less intimidating than “I’m an astrophysicist that studies gravitational waves.” My colleague joked, “but to call yourself an astronomer, you have to have detected something!"
+
+Suffice to say, I’d be lying if I said I wasn’t excited about being able to call myself a “gravitational wave astronomer” now.
+
+But beyond that, we’ve been confident in the value of gravitational wave science for a very long time. And while the recognition certainly lends us credibility in the public eye, I definitely agree that it doesn’t take away from other “frontier sciences.” In the end, this is the beginning of a whole new world of observational science and it’s exciting to be a part of it!
+
+Buuuut… somehow I can’t help but think I might be a little more employable now! :)
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation and grammar]
+
+Question : How big is Python in the scientific community? I noticed that you used it in your paper.
+
+Answer : I can't speak for the data-analysis and astrophysics side of the LSC, but in the control room Python is used to automate the vast majority of the instrument. There are many control loops that must be used to keep the LIGO instruments operating at their optimal sensitivity. However, they can't just all be switched on at once! There is a complicated procedure for switching on all of these loops in the right order with the right feedback gains and so on, and this procedure (as well as many others) are controlled by a software infrastructure written in Python.
+
+PJF, research faculty, interferometric sensing and control *Edited initials to distinguish from other PFs
+
+Question : Thanks everybody so much for asking questions! You can't imagine how much fun we are having talking to all of you about our research. We're all in need of a break/some sleep right now (it's 1am in Germany), so we'll leave you for a bit. But we'll be back throughout the weekend, so please continue asking questions - this is such a privilege! See you guys later!
+
+
+Justus S - PhD student in high power laser development in Hannover, Germany
+
+Answer : This has been a great AMA - thanks for all the replies!
+
+Question : This is one of the best AMAs I've ever seen. So many questions are being answered and I am learning a lot. How does it make you feel, to see so much interest in your field and discovery? 
+
+Answer : It's really amazing to see how much our discovery is being discussed on social media and in the news and how interested people are! As physicists, we are used to people's eyes glazing over when we try to tell them about what we do, so, it's nice that everyone is so excited now!
+
+JC and MW, graduate students LSU and LLO
+
+Question : Can this observation be considered as a 5 sigma discovery of an actual black hole with an event horizon?
+
+
+Answer : The 5 sigma statement is about how unlikely it would be for something this significant to be made by noise from the detector. In this case, the event was much louder than anything we can measure, so the 5.1 sigma is actually a bound. The signal itself was later analyzed and found to be very consistent with what you would predict from general relativity. 
+
+-Nitz, modeled searches for compact binary coalescences, Hannover, Germany
+
+Question : During the press conference yesterday,  it was stated that to detect gravitational waves, it requires a strain sensitivity of about 10^-21. For the 4km long arms of LIGO, this is about equal to a sensitivity of 10^-18 meters, which is much smaller than the radius of an atom. How did you take into acccount the noise of thermal fluctuations of the atoms of the mirror surfaces? If the laser bounces off the mirror, but the surface atoms are moving, how do you differentiate that noise from a gravitational wave?
+
+Answer : The trick is to have your laser beam illuminate ~10^24 atoms on the surface of the mirror. The coherent reflection is an average over 10^24 atoms, so the fluctuations are down by 1/sqrt(that) = 10^-12 of the size of an atom. Averaging saves the day! - AlanW
+
+Question : How bad was your hangover this morning? 
+
+Answer : I was surprisingly fine actually, but there was a lot of celebration here in Hannover! I think some people only left after the first people had arrived back at work again. I can't imagine what it was like at the detectors themselves...
+
+-JS /PhD student, high power laser development, Hannover/Germany
+
+Question : Can you give a Year 10 science student a basic rundown of this what this discovery entails?
+
+Answer : Sure!  We observed the collision of two black holes -- each one about 30 times heavier than the Sun -- a little more than one billion light years away.  That in itself is amazing.  The revolutionary thing is *how* we observed them, using the tiny disturbances in gravity that collision caused instead of light.  For all of human history our only tool for learning about the cosmos was light.   We now have a brand new way of observing the Universe and many more discoveries are waiting for us. --TBL
+
+
+Question : So, if i'm understanding this correctly.. you had no idea in advance that these black holes existed UNTIL you picked up the signal?  Correct?  
+
+If that's true how did you:
+
+1.) Determine they were black holes and not something else?
+
+2.) Can you explain how you triangulate the relative location of these masses with only two detectors?  Wouldn't you need 3?
+
+3.) If you caught this event from 1.3 billion light years away, wouldn't you expect to be catching signals ALL the time?  Every day?  Every hour?  Every minute?
+
+Thanks in advance!! Congratulations!!
+
+Answer : 1) We use Einstein's equation and supercomputers to calculate what the wave from a black-hole merger would look like, and the observed waveform matches exactly. Besides, just by looking at the frequency of the wave you can tell that the objects must have been VERY compact, so much so that they can only be black holes.
+
+2) We use frequency and amplitude information, as well as time of arrival at both detectors, to restrict the position of the source to a somewhat broad area in the sky (you can see the sky-map in the "Sky location" tab here https://losc.ligo.org/events/GW150914/); however, you are right that more detectors are needed to better pinpoint the location of a source.
+
+3) GWs are pass through Earth constantly, but that doesn't mean we can detect all of them. How many signals we see has to do both with how sensitive our detectors are and how often events that can cause waves strong enough happen; because we observed one of these events in 18 days of observation, we can tell that there are between 2 and 400 of these events per year per gigaparsec cubed events like this in the space around us.
+
+Thank you for your interest!
+
+-- MI, Caltech
+
+Question : Dear Reddit-ers,
+
+I have tried to answer as many questions as I can by myself during the past 4-5 hours. I now hand over the reigns of this AMA to my colleagues. You'll be joined by Justus Schmidt and Brian O'Reilly [I presume] along with many others very soon! Stay tuned and keep asking! I apologise to all those who I couldn't answer. I wish I had a pair of extra arms or a set of extra fingers! Signing off from Hannover, Germany. See you folks later!
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : The mass of each black hole was approximately 30 solar masses. This is an unusually large size compared the the largest stellar black hole I know about M33 X-7 at around 16 solar masses. If accurate does this tell us something new about stellar black holes and how big they can be formed?
+
+Also, was the spin of the secondary black hole constrained enough to estimate the recoil/kick from the merger? Could this merger have ejected the final black hole from its galaxy?
+
+Answer : The black holes that made up the detection are indeed the most massive stellar mass black holes observed.  This tells us that the metallicity of the stars that formed the black holes must have been much less than the solar metallicity.  See http://www.ligo.org/science/Publication-GW150914Astro/index.php for more details.  
+
+The part of the spin that tells us about black hole kicks was not well constrained so we don't know for this event, but we will be looking carefully at future detections.  --TBL
+
+
+Question : First of all, congratulations, and thank you for this amazing accomplishment.
+
+According to GR, gravitational waves distort space-time itself rather than moving through it, am I correct?
+
+What would be experimental difference between these two interpretations, namely, GW distorting space-time vs. moving through it displacing masses on its course?
+
+Am I correct in expect red/blue-shifts in electromagnectic radiation due to the passing GW? Does it have a measurable effect on the LIGO laser beam? I mean, in addition to the displacement of the mirrors?
+
+Answer : Gravitational waves move through spacetime along the direction they are propagating, and distort space time in the directions *transverse* to that propagation.  So, if the gravitational wave is moving through your screen it would distort the height and width of the screen, but not the thickness.
+
+Gravitational waves cause distortions in spacetime which in turn would change the wavelength of light, but these are incredibly small distortions which are not noticeable (or else we would use that to detect them!)
+
+The changes to the wavelength of the LIGO laser beam are completely dwarfed by the difference in time it takes for the laser light to travel down one arm of the detector and back, compared to the other arm. --TBL
+
+Question : Now that we have confirmed Einstein's long-time hypothesis, are there any direct applications of this discovery? What I mean to ask is, though there is no disputing this is an amazing scientific discovery, can this knowledge be used practically in a way that even non-scientific minds can grasp?
+
+Answer : Not directly, no. But that isn't always the point of this kind of research.. In order to make this discovery, a whole bunch of technology has been developed for this! Really precise optics that were used here have a whole bunch of industrial plants. The sensing equipment that's placed all around the detectors have given a really great insight into how really unrelated phenomena can be linked. Some of the codes developed could be used in a really wide range of other places, now that big data management has become key in so many industries.
+
+But best of all, we now have a really practical way to listen to the universe! It's opened a new window into the universe to do science, and who knows what can come from that!
+
+The direct applications of GR are far off, but the indirect boons from science are always a win.
+BP - Glasgow University and LHO Fellow
+
+Question : Do gravitational waves experience normal wave effects such as reflection, refraction, and diffraction? If so, are these effects likely to be large enough to be detectable with aLIGO?
+
+Answer : It is hard to imagine the right kind of lens for GWs, since they go through pretty much everything.  I guess we could hope for gravitational lensing of GWs... that would be fun.  [ME, MIT Prof.]
+
+Question : Up until this point it seems black holes were "observed" indirectly.  By mathematical models, through observing gravitational lensing, or the ABSENCE of data.  One could argue that black holes still weren't proven, (though we assumed they did, just as we assumed gravitational waves existed)
+
+So can you confirm, this is the first time in history that we have DIRECTLY measured a black hole?  
+
+Answer : Yes.
+
+While electromagnetic emission from a black hole has been theorised (Hawking radiation) it's far too faint for us to have ever seen. GW150914 was the first time we had ever seen an emission from a black hole: in this case it was the emission from two black holes merging into one. 
+
+Before that we'd only ever been able to observe the effects of a black hole on other things, like objects orbiting them, or light travelling past them.
+
+-- DW (Burst [unmodelled transients] analysis, at the University of Glasgow, Scotland)
+
+Question : This is the dawn of a new branch of astronomical science: gravitational astronomy. What do you see as the scientific possibilities for observations using this approach?
+
+Answer : As you say, it's gonna be a whole new branch of astronomy, so there are MANY possibilites. Right now we are mostly hoping for more binary systems - either more binary black holes, or maybe double neutron stars, or one neutron star plus one black hole. But we are also searching for single rapidly spinning neutron stars that would give us a wholly different signal - continuous over the whole observation span, but even weaker. And for signals from supernovae: exploding massive stars. Or maybe even the very elusive signals from the early universe - right after the big bang - if we get really lucky.
+
+And of course, any new observation will not only tell us something about that individual astronomical source - but also further allow us to test Einstein's generaly relativity to ever higher precision and under new circumstances.
+
+If you're ok with some technical lingo, there's also a great, free article about some of our science goals for the future goals that went online as a "Living Review" this week: http://relativity.livingreviews.org/Articles/lrr-2016-1/
+
+DK (data analyst)
+
+Question : I'm assuming gravitational waves are massless since they travel at c...How can 3 solar masses of energy get converted into something that has no mass?
+
+Answer : Yes, gravitational waves are massless.
+Einstein's equation E = mc^2 states that mass is basically a form of energy. So, by "three solar masses of energy", we mean that the equivalent of that amount of energy was stored in these waves.
+SU -  Student at Syracuse
+
+Question : Do gravitational waves propagate at the speed of light? Did the event being measured actually occur 1 billion years ago?
+
+Answer : So, we're pretty sure that they do travel at the speed of light (we detected the wave passing through our observatory in Washington, USA 7 milli-seconds after it passed through our observatory in Louisiana. We can work backwards to calculate its speed, which suggests that they travelled at the speed of light.
+
+We also worked out that the event happened over 1 billion light years away, which means it took a billion years to reach us at that speed.
+
+--DW (I work in burst [transient events] data analysis at the University of Glasgow, Scotland)
+
+Question : This may be a stupid question, but I was wondering what would happen to the accretion disk of both or either black holes during their merger.  Would this disk be consumed entirely, would the disk still exist with less mass, or in the case of these two particular black holes would you expect to see an excretion disk?
+
+Answer : There's not been much work (that I know of) modeling such things. They can't each have their own accretion disk, because they're too close to each other, and the disks would get disrupted by the other black hole's gravity. I think it's even unlikely for black holes to have a common accretion disk, but maybe there's some matter further out. When the black holes merge, they lose mass, and so my guess would be that the disk would disperse outwards, rather than accreting. I'm sure this is going to be a topic with a lot of discussion now that we've made our announcement!
+
+-- AL, postdoc, detector characterization (and armchair astrophysicist), AEI Hannover
+
+Question : Here I am, signing off from Germany where it is well past midnight! Our colleagues from US [and some night-owls from Europe] will continue to answer your questions! Keep the questions coming and we will keep answering them [throughout this weekend!!!]; I will be back tomorrow morning to answer more. Thank you all for making this AMA a success. #LIGO #EinsteinWasRight
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : I just read an article about the contribution from RIT (Rochester Institute of Technology), can you explain what it is they have done to aid in the process that lead to the discovery?
+
+Answer : The RIT team is one of several groups (I'm in a different one) that use computers to simulate sources of gravitational waves. We both ran the same simulation of two colliding black holes, and the simulated gravitational waves agreed very well with each other and what LIGO saw. That gives us confidence that the waves really came from two merging black holes, as Einstein predicted. -GL, assistant professor, Fullerton, CA
+
+Edit: links to pages describing the RIT work and the work I was a part of, if you'd like to learn more:
+
+http://ccrg.rit.edu/GW150914
+http://black-holes.org/gw150914
+
+
+Question : Hello!
+How external vibrations, or differences on Earth gravity does not affect the lasers?
+
+Answer : In fact, they do. Ground vibrations affect the mirrors that reflect the laser. We can "see" in our data earthquakes happening everywhere in the world. To mitigate the effect, we have a complex suspension, comprised of several stages. The mirrors, inside the vacuum system, hang from multiple pendula, than are mounted on tables that have active and passive isolation from ground vibrations. Also, these tables are attached to ground via a further hydraulic system that provides further isolation and allows for compensating effects that we can predict, like the tidal effects from the moon.
+Variations in Earth's gravity are somewhat more tricky. They affect our instrument the same way gravitational waves do, so it is very difficult to separate them from the signal we want to see. Fortunately, they are only strong at low frequencies (on Earth, it is hard to come by big masses that move around significantly many times per second). So, as long as we look at signals that vary at about 10 Hz or more, they are too small for us to detect. As we push to observe at lower frequencies, however, they are expected to quickly become a problem. This is one of the reason why people are designing space mission to detect lower frequency gravitational waves.
+
+GC, assistant scientist
+
+Question : What do you guys think of efforts such as Einstein@home? Does that kind of search for gravitational waves make sense to you? Does it help in any way?
+
+Answer : Einstein@Home actually help us analyse our data! They are based right here in Hannover, and the algorithms used are written by our data analysts. 
+
+Justus S, PhD student developing high power lasers, Hannover, Germany
+
+Question : Thank you for doing this AMA and all the contributions you've made to science! A couple of Physics majors at UW Madison are wondering if there were any times when you (as a team) were frustrated with the results (or lack thereof) of your experiments before they yielded anything cool? Similarly, what keeps you going through such a long project?
+Thanks again!
+
+Answer : Hello! I've been in the LSC for about four years but I have talked to a few of the big cheeses in the community on this matter. I think that the thing that kept everyone going was that we knew what the potential scientific payoff could be if we managed to build detectors sensitive enough. Knowing that for every little improvement in sensitivity we "hear" an even bigger chunk of the universe provided the necessary motivation for most people. And big projects like this involve many interesting mini-projects, where we can test out new ideas and publish some cool results, which helps to keep everyone going. --SL, PhD student working on interferometry in Glasgow
+
+Question : Would you be able to get a better "gravitational telescope" by using, say, a gigantic tetrahedron-shaped array of lasers? Does your team have a notion of a best possible array?
+
+Answer : LIGO has two arms at right angles. A detector with more arms would improve sensitivity to different polarizations of gravitational waves, to better pinpoint sources on the sky, and test relativity in new ways.
+
+Two current mainstream proposals would use a triangle: the LISA/eLISA space detector www.lisamission.org and the next-generation ground-based Einstein Telescope http://www.et-gw.eu/
+
+A Tetrahedron (4 corners) would be one step up from that, or even an octahedron (6 corners) - that gives you many new possibilities, but also gets increasingly difficult. SciFi at the moment, maybe reality in a few decades...?
+
+DK (data analyst)
+
+Question : 1) How long did you search for the waves until their confirmation? It stretches to two questions:
+
+a) When did the project that led to detection of the waves began?
+
+b) Do the scientists have weekends, or do they work every day? How long do they usually work a day?
+
+2) How many people were involved in discovery in total?
+
+3) I was totally unprepared for this AMA, so if I got some more questions, should I write them as another comment, or as answer to one of your comments?
+
+Answer : I'll try to answer all of these quickly!
+
+1a) "Initial" LIGO ran for eight years, from 2002 to 2010, as a proof of concept for the detector setup. Then we upgraded it and turned it back on in Fall 2015! Our first observing run ran from September through January of this year. But the LIGO itself project started much earlier, in the 1990s. And efforts to detect GWs have been on people's minds since the 1960s! (And of course it all leads back to Einstein 100 years ago).
+
+1b) Different scientists work different schedules! (I myself, take weekends unless there's a deadline coming up!) But most of us are always thinking about science at least a *little*. 
+
+2) There are around 1000 people currently in the collaboration, and hundreds more that have been involved since its inception almost 30 years ago.
+
+3) Probably another comment. There are a lot of us helping out with answers, and we want to make sure we see it!
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: dates!]
+
+Question : What are some misconceptions that have been proliferating in the wake of your announcement that you'd like to dispel?
+
+Answer : That these are are not gravity waves! A gravity wave is a wave through fluids, such as an atmosphere, or an accretion disk around a large object. This is a very different phenomenon from gravitational waves!
+
+BP - IGR and LHO Fellow
+
+Question : As already answered in another thread below, the gravitational waves do not interact with matter. However, consider two charges placed at some distance with each other. Suppose very powerful g-waves pass through them, the distance between charges changes and they oscillate. Does this result in emission of EM waves? If so, the energy of EM waves came from g-waves, right? Does it mean g-waves lose energy this way? Also isn't it same as interacting with matter?
+
+Answer : So gravitational waves do interact, just very weakly. The first attempts at detection used cryogenically cooled bars of aluminum. The idea was that a GW would make them ring at a certain frequency. LIGO's test masses are essentially in free fall and free to move.
+
+Your pair of charges will move a little. But lets say they are separated by 1 nanometer. A wave such as LIGO detected will change this distance by about a picometer. This is a very tiny effect. Try using the numbers in Coulomb's law for a separation of 1 nm or 1nm +/- 1pm. (BO'R)
+
+Question : The signals for gravitational waves were detected last September, but they were just announced. What was LIGO doing during the time in between?
+BTW Congratulations this is worthy of a Nobel Prize!!!
+
+Answer : We were being very very sure that the signal we detected was in fact a GW from a pair of black holes.  Very, very very sure. [ME, MIT Prof]
+
+Question : What role does the Higgs Mechanism play, if any, in gravitational waves?
+
+Answer : The Higgs mechanism is very quantum mechanical, whereas GW's are (so far) a purely classical, non-QM phenomenon. However, as a form of energy, the Higgs (and all other particles, mass, energy) contributes to gravity. But... quantum gravity is poorly understood and at the forefront of current research, so we don't really know exactly how the Higgs contributes to gravity, only that it does. It's essentially irrelevant for our LIGO discovery. 
+
+Question : What's next for LIGO? It seems to me that the observatory has now fulfilled its purpose. Where does it go from here? Are there other uses for it; other things we can discover with it?
+
+Answer : The "O" in LIGO stands for "Observatory."  You can think of LIGO as a gravitational wave telescope, as opposed to the many telescopes for light located all over the world (and in space).  We now have a way of "observing" the universe through gravity, instead of just light.  
+
+The goal of LIGO wasn't to make the first detection and then shut its doors.  The goal of LIGO is to be a tool for us to  learn about the universe in this new way, and we are eagerly waiting for more detections to add to our knowledge in this new-found observational field. --TBL
+
+
+Question : How do you guys think this will change the way we understand the universe? 
+
+Answer : The direct detection of gravitational waves really marks the beginning of an entirely new era of observational astronomy. Up until now it's like we've been watching a movie with the sound turned off. You get a lot of information just from seeing, but it's only half the story. With LIGO we've finally cranked up the stereo!
+
+We hope to learn a great many things about compact objects like black holes and neutron stars: from the astrophysics that governs how they form and evolve, to how they interact with each other and the surrounding universe. And as other observatories (like eLISA and pulsar timing arrays) develop, we’ll start to will answer questions about supermassive black holes in the center of galaxies, the way dark matter is distributed in the universe, and maybe even start us on the way to understanding dark energy!
+
+But I think the most exciting thing is all the stuff we don’t expect! Even this discovery surprised us in a way by showing not only can you get 30+ solar mass black holes naturally, but they can evolve and merge within the age of the universe. And that’s only the beginning! Gravitational waves are going to answer questions we haven’t even thought to ask yet.
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[Edit: formatting]
+
+Question : How often should we expect to see gravitational events of this magnitude?
+
+What's the 'next step' in gravitational astronomy?
+
+Answer : How often we see events depends on the sensitivity of the instrument.  We found this 1 event to be the loudest signal in about 39 days of calendar data.  So, a rough estimate is that if we keep the detectors the same, we could see about one event this loud per month.  In practice, we hope to increase the sensitivity of the detectors, and find an even higher rate.  JBK, at Caltech
+
+
+
+Question : Would a planck scale teacup spill its contents by a Surface-Gravity wave if it were hit by a GW ~ ?
+
+Answer : At the  Plank scale, it's far too small to hold tea.
+
+Source: I'm British.
+
+BP - IGR &amp; LHO Fellow
+
+Question : What is love?
+
+Answer : Its a very poor score in tennis arising from mispronouncing the French word for nothing, which incidentally appears as the 5th character in GW150914.
+
+Question : What doors have we,  as a species, opened with this discovery?
+
+Answer : The ultimate goal (I presume) of GW-Astronomy is to get the Primordial GW Background, remnants of which were emitted at the Big Bang itself. This primordial background is similar to Cosmic Microwave Background (CMB) but emitted somewhere between 1.0e-42 - 1.0e-21 seconds after the Big Bang during the Inflation epoch. The CMB only goes as far as 100,000 years after the Big Bang, and it is the furthest we can see in time currently with CMB. Hence, GW Background will take us back further in time at the very birth of universe, and allow us to analyse the state of universe at that point of time. But such a background is really weak [at a strain magnitude of 1.0e-30 - 1.0e-27]. This is 1,000-1,000,000 times less that your current sensitivity. Plus, such a background is rumbling at very low frequencies, where the Seismic noise is huge for ground-based detector(s). We'll have to go to space for this; enter eLISA mission (Einstein Telescope?)!
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : Does the discovery of gravitational waves points toward the existence of a graviton?
+
+Answer : No, but the pattern of the waves does put a limit on the mass of the graviton, if it exists. If the graviton existed and were more massive than about 10^-58 kg, the waves would have been distorted in a way that would have been noticeable in the experiment. -GL, assistant professor, Fullerton, CA
+
+Question : An optical astronomy friend of mine asks: "Are gravitational waves distorted if they propigrate through graviational potentials (i.e. warped space-time)?".  
+
+Answer : Yes, absolutely they are! Gravitational waves can be 'lensed' by gravity, just like light is. In fact, when we calculate how we expect the gravitational wave signal to look, we have to take into the account the gravitational potential. This is what makes binary black holes such a great test of general relativity, because their very strong gravity makes this a big effect.
+
+- AL, postdoc, detector characterization, AEI Hannover
+
+Question : How can you be sure that the energy radiated away in the black hole merger was lost predominately due to gravitational waves and not due to some other mechanism (e.g. EM radiation)? 
+
+Answer : We can't be sure that nothing else was emitted. The waveform is in great agreement with General Relativity (GR), which, if correct, predicts this energy loss (and is consistent with the energy we detect in GWs). If it ALL went out in light, the sky (for that fraction of a second) would be brighter than the full moon! We had telescopes pointing in the direction of the event (minutes, hours later), we await word from our partners whether they saw anything. Maybe the Fermi gamma ray telescope saw something; they're not sure. - AlanW
+
+Question : So what does this mean for humanity?
+
+Answer : Everything we know about the universe outside the solar system came from different kinds of light (visible light, x-rays, radio waves)...until now. Gravitational waves let us observe the universe in a whole new spectrum, and this will let us learn about what's in the universe and how it works. It's like when Galileo first looked at the sky through a telescope...it was the first step to changing our understanding of what's out there, beyond Earth. -GL, assistant professor, Fullerton, CA
+
+Question : The headlines have concentrated on the gravitational wave discovery itself, but how important do you consider the breakthrough in making the first observation of such strong field general relativity dynamics in Nature?
+
+Answer : Extremely important! So many of the tests of Einstein's relativity have been in the "weak field" (the limit of gravity we're used to dealing with -- like on Earth, or in the solar system). The precession of mercury, gravitational lensing, and even the *propagation* of gravitational waves can all be tested in this limit.
+
+But the *source* of this event was extremely strong field -- the merger of two ~30 solar mass black holes! And Einstein's relativity came through with flying colors. We saw no appreciable deviations from relativity, which speaks a great deal about the integrity of the theory!
+
+I'm sure there will be much more to say on the nature of "strong field" general relativity as we see more and more of these sources. It's an exciting time to be studying GR!
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : What was the first thing you did after you found out the result?
+
+Answer : Truth is, there wasn't a "moment" in which we found out. It was a slow process. First you get the e-mail that there was something in the data that looked a lot like a detection. At that point you hope and your heart jumps a bit, but you know that it could be a thousand things: an injection, a glitch in the instrument, someone pulling a prank... Then people all over the collaboration start checking the parts they are responsible for: hardware, software, analysis, infrastructures. As "green lights" come in over days and sometimes week, the awarness starts to sink in... and at some point it clicks in your mind that you should just start to believe it really happened. LIGO did it. It worked! And you are happy! :-)
+
+GC, assistant scientist
+
+Question : Can someone enlighten us on the choice of journal PRL for this paper? Were the reasons historical or political?
+
+Answer : PRL was the right choice for the science we wanted to present.  There was some political pressure to publish in a more "flashy" journal, like Nature, but we decided to focus on the results rather than the politics. [ME, MIT Prof.]
+
+Question : With the detection of gravitational waves, can you possibly ELI5 exactly what is carrying this wave? I know, I'm reading that it's space-time, but what does that really *mean*? Waves on the ocean, for instance, are propagated on water, and we know what water is made up of, but space-time is made up of- what? Gravitons? Or is it the case that science doesn't really know what space time is made up of, and this is a common question?
+
+Huge congrats, by the way.
+
+Answer : LIGO_Astrophysics' answer hits the nail on the head! In addition:
+
+Sometimes analogies can seem insufficient on an intuitive level--especially when thinking more critically on the subject. It's very difficult to think of some of these concepts without, ultimately, exploring the mathematics behind them, because mathematics is ultimately the language of physics. It's like trying to fully grasp the nuances of Goethe without being able to understand German. Randall Munroe explains it best: https://xkcd.com/895/
+
+It is this quest to fully understand "why" that drives people like us, and it's encouraging to get these same questions asked right back at us!
+
+-- CB, PhD Student, Louisiana State University at LIGO LA Observatory
+
+Question : Do you guys get a lot of money as a direct result of the discovery?
+
+Answer : The National Science Foundation funds LIGO in 5 year increments so we don't expect an impact there. What the direct detection does accomplish is it removes the "When are you guys going to find something?" question from the discussion. That alone should make funding for University groups, international collaborators and the field in general easier to come by.
+
+For people who are building a career in gravitational wave physics this is extremely good news indeed. As someone who was a graduate student 25+ years ago I'm a little envious. (BO'R)
+
+Question : How can you date the origin of the gravitational waves?
+
+Answer : By measuring the signal carefully, we can tell about how far away it was. We do that by measuring the masses, from how quickly the signal chirps, which tells us how loud it was. And we know how loud it sounded at the Earth, which tells you the distance. Since the waves move at the speed of light, a billion light-years equals a billion years that they've been traveling. The numbers aren't exact, but that's the idea.
+
+-- AL, postdoc, detector characterization, AEI Hannover
+
+Question : Can observing gravitational waves help understand the role of Dark Matter and Dark Energy in the universe? 
+
+Answer : Our understanding of Dark Matter and Dark Energy come in part from our understanding of gravity.  Gravitational waves are a consequence of gravity that we now, for the first time, are able to measure.  As we continue to observe gravitational waves we will continue to learn more about gravity and it is possible, though no guarantee, that they will guide our understanding of the "dark side" of the Universe.  --TBL
+
+Question : This is for Dr [Nergis Mavalvala](https://en.wikipedia.org/wiki/Nergis_Mavalvala), Professor of Astrophysics at MIT, /r/Pakistan is very proud of your work, and hope this will spur further research opportunities here.
+
+Should an opportunity arise, would you be willing to come and run a research institute here? Do you think we have the skill base for that?
+
+Answer : Unfortunately, Dr. Nergis Mavalvala is not a part of this AMA. We can certainly forward your good wishes and questions to them though!
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+
+Question : I'd think that a hundred PhDs in physics would know better than to cross the streams. See what happens?!
+
+But seriously, it seems like a wild idea: someone in a meeting says "two black holes are about to merge" let's use that as our wave generator. What was the actual series of events/ideas that led to today?
+
+Can we create a detectable artificial source of disturbance?
+
+Answer : Don’t worry, alkalait. There was always a very slim chance we'd survive!
+
+Jokes aside, the thought that massive sources of gravitation could produce gravitational waves has been around for 100 years. Though it wasn’t until twenty-or-so years ago that numerical relativity simulations made it to the point where we could produce — start to finish — the expected signals from the merger of two black holes. Needless to say we’ve come a long way since then.
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : So if I unterstand it right. Every form of matter which moves along the spacetime is emitting these gravitational waves. So the universe must be like a restless sea of waves which are amplified or eliminated. Right? So how could they really be so sure about that the fusion of two black holes would have created this big gravitational wave and not another incident in space? Furthermore ... Is it possible that one gravitational wave could be so large, that it would swallow all other smaller gravitional waves in its way and becoming to a gravitational superwave? How would spacetime react in this, if this is possible... (May be a not so profound question...) thanks!
+
+Answer : Using Einstein's equations and supercomputers, we're able to simulate the merger of two black holes and predict what the corresponding gravitational wave signal will look like. The signal we detected matches this prediction exactly, so we're very confident that we have observed a merger of two black holes, and not something else. The event we detected was incredibly strong; your intuition is exactly right about the presence of a quieter "restless sea," though. For every loud event like the black hole merger we observed, there are many more events that are too quiet or too far away to be detected directly. These all contribute to a "stochastic background" of gravitational waves. A stochastic background is like being in a crowded room -- all the conversations around you merge together into a constant hum. LIGO is currently searching for the presence of this gravitational wave background! --TC
+
+Question : Has LIGO also opened up new ways to study the Earth, too, because of the instrument's incredible sensitivity?
+
+Answer : LIGO is extremely sensitive to seismic disturbances, and will most likely see most of the earthquakes anywhere on the planet, even ones that you yourself wouldn't necessarily feel. There are somewhat related projects however, with similar measurement principles, with more concrete applications to study the Earth. In particular, the Grace satellite mission uses two satellites that orbit Earth in a low polar orbit. One spacecraft follows the other and they monitor their separation. Changes in the Earth's gravitational field accelerate the leading spacecraft first, such that the two satellites can map the local variation in Earth's gravity. The first iteration of this mission used microwaves, but follow-on missions are likely to use laser interferometry to monitor the inter-satellite distances.
+
+JE, Postdoc (Advanced controls, thermal noise, and cryogenics).
+
+Question : What should a high-schooler  like me should do to work in an Observatory as big as LIGO?
+
+Answer : It's never too early to get involved in science! Even with a collaboration as big as LIGO. 
+
+You can start by talking to your science teachers! Ask them questions! If they're interested, suggest that they check out the [LIGO Research Experiences for High School Teachers](http://www.ligo.org/students_teachers_public/research.php) summer programs so they can learn more about LIGO and bring it back to the classroom! 
+
+Try reaching out to LIGO researchers at a local university! Many of us love doing outreach and talking to enthusiastic students of all ages. Maybe ask if they could come talk at your school about the big discovery! 
+
+Once you're getting ready to graduate. Aim for a college or university that has LIGO scientists doing research there. Then, even as an undergrad you can do research through the [Research Experiences for Undergraduates](https://labcit.ligo.caltech.edu/LIGO_web/students/SURF/about/overview.shtml) summer program, or by becoming a [SURF](http://www.sfp.caltech.edu/programs/ligo_surf).
+
+But the best thing you can do, is exactly what you're doing now! Ask questions, get excited, and try to learn as much as you can. Science is all about curiosity!
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : Congratulations to the team! I've really enjoyed the presentations and explanations--what an outstanding job bringing this news to the world. There's water-cooler talk about gravitational waves. Just fantastic!  
+
+To LIGO_LA, my question is: G&amp;J or Wayne's BBQ?
+
+Answer : I'm at the WA site right now but I have worked in Livingston in the past.  Wayne's ribs all day.
+
+-VR PhD Student, U of Oregon LIGO WA Site
+
+Question : Has Neil Degrasse Tyson contacted you guys? He's one of the first people I looked up on Twitter for comment, since I figured he'd be quite excited... But his last tweets are about the Superbowl, which is kinda disappointing to be honest. 
+
+Answer : He hasn't contacted me *personally*, but if you see him tell him he should give me a call! I'd be happy to tell him all about our discovery! ;)
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : Do you or your coworkers watch The Big Bang Theory?
+
+
+
+Answer : Most people do not like it.  I personally don't dislike it at all.  It's obviously stereotypical and can be frustrating at times because of some of that, but I also think it can be funny at times.  I don't quite understand the vehement hatred for it.  I don't watch it often though, to answer your question.
+
+-VR PhD student, U of Oregon LIGO Hanford WA
+
+Question : What are your thoughts on the current financial crisis impacting LSU and all of Louisiana? Also how if at all will it impact yall?
+
+Answer : I just heard about that this morning from a colleague who came here from LSU. Suffice to say, I'm very sad to see the state of things in Louisiana... 
+
+Thankfully, I don't think there's much direct threat to our observatory in Livingston. Though I leave that answer to my colleagues which are more informed on the matter.
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : From what I understand, you were doing a test-run before even going fully operational, so the planned precautions of 'fake injections' etc. weren't even in effect yet, and you found your first detection the day after you started taking data. The initial paper hints at another one. This is from a run that lasted much longer - how many more have been detected? We're all very curious what the rate for BH-BH mergers is going to be.
+
+Answer : All we can talk about is the detection and the one other possible GW (we're not claiming that it is) mentioned in the papers.  Sorry, I know that's a disappointing answer.  Complete analyses will be performed and released in the future.  Hopefully future observations will not require the same 5 months of vetting that this initial one did.  But yes, we are looking forward to getting better rate estimates as well.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : How "lucky" were you to catch this event during a period when you were listening? Two merging black holes seems like a rare event...is this like hitting the lottery or is are there are least two black holes coming together somewhere in the universe all the time?
+
+Question : How did you know what to fit the signal to? I understand that the signal is distinct and clearly resembles two merging massive objects, but how did you know exactly how to adjust the parameters to fit the signal? I would imagine that these systems are too complex to get an analytical solution from. Do you have a grid of different parameters obtained from different numerical simulations with varying initial conditions (such as different initial masses)?
+
+Answer : I'm an experimental guy, but I'll try to answer this anyways. But I guess you answered this yourself: numerical relativity parameter fit algorithms would be my guess. I saw a graph today stating that the total CPU time spent on this signal alone was 50.000 hours. We know pretty much instantaneously that this signal was from two quite massive black holes, but to get all the parameters with error bars seems to be more challenging. (we have data on their spins and such :) ) If you want to know the details, this guy might be your man: http://www.phys.ufl.edu/ligo/#people/member/sergeyklimenko
+(“I work on detection and reconstruction of gravitational waves with networks of detectors”)
+~ SB, postdoc, University of Florida
+
+Question : Why was the press conference stopped deliberately in the middle of asking questions? 
+
+Question : 1) Do gravitation waves have directionality? I assume so, and that's how you were able to triangulate where these black holes were?
+2) Do they decay in space the same way you would expect from a point source, i.e. rarefecation into more space? Or is there some other paradigm?
+
+Answer : Yes, they definitely have a direction. They travel from the source outwards. And yes, we use the time of arrival at the two detectors, plus some more sophisticated information about the relative sensitivities of the detectors to sources with certain orientations, to localize the source. We also send this information to partners astronomical observatories, so taht they can point in that direction and look for some coincident electromagnetic signal. Unfortunately, localizing the source with weak signals and only two detectors is a difficult task and the uncertainty in the result is big. Further detectors expected to join the network in the coming years (VIRGO, in Italy, later this year) should considerably improve our localization capability.
+As of decay, far from the source the amplitude of the wave decays as 1/r, where r is the distance from the source.
+
+Question : Is it true that the gravitational field at the event horizon of a sufficiently large black is not all that strong?
+
+Answer : [CORRECTED &amp; FURTHER COMMENTS DELETED]
+
+No, that's not true! The average density of a Super Massive Blackhole (SMBH) is close to, or even less than, say - density of water [One must be careful here when we define 'average density'. Since BHs don't have a 'surface', we usually consider their Schwarzschild radii to be their effective boundary]. Their Schwarzschild radii extend very far away from these objects [since it is proportional to their mass, not density!], which makes the Tidal forces [due to local small-scale variations in gravitational force/field between lengths r &amp; r +dr] very weak. The strength of the gravitational field is *expected* to go inversely proportional to its mass [1/M] 'at' the event-horizon [~classical Newtonian treatment in the *vicinity* of the event-horizon of the Blackhole]; this is - however - **not true** since the Newtonian approximation breaks down in the *vicinity* of the Schwarzchild radius of the Blackhole. The gravitational field at the Schwarzchild radius is *always* equal to what one would require for a photon to escape; this value is constant and large! But remember, one will not feel the Tidal forces as strongly *in near vicinity* of event-horizon [of a SMBH] as compared to the case of a stellar-mass blackhole [gravitational field gradient is small for a SMBH!].
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : If the observation was made in September, what process entailed until now that made it possible to verify and release a statement?
+
+Answer : 1. Double-check if the signal wasn't due to a 'Blind Injection'. [Blind Injections: We insert fake signals into our detectors sometimes. Only a handful of people (I believe 3 is the number) in the executive committee know about such an injection. It is meant to be a test for the search pipelines.]
+
+2. The next thing to do was to rule out malicious intent by someone [if someone injected a fake signal without authorisation]. There was a good amount of sherlock-ing going around to rule those possibilities out. We had to get into the mind of the criminal [:D] and see what possible ways there were to make a malicious injection. We didn't find any evidence of that either after two months of rigorous work [lead by Matt Evans at MIT].
+
+3. Once the authenticity is confirmed, the results were followed up with CBC searches [The initial detection was made by cWB pipeline, which was followed by a re-confirmation by CBC pipeline]. This takes time. 
+
+4. Once the CBC searches confirm the signal and generate a matching wavelet, we estimate the parameters of the source. 
+
+5. The results are triple and quadruple-checked. Papers are written and circulated within the collaboration for comments. Follow-up companion papers are also done in parallel. 
+
+It is a long process!
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : I teach high school physics and we discussed this yesterday during class. A student wants to know: How were you able to determine that the waves were from 1.2 billion years ago?
+
+Question : If these waves where first produced from the merger 1.3 bil years ago.  How long before these waves stop  passing through earth.?
+
+Answer : They already stopped for that particular event [GW150914], within a few milliseconds. The signal waveform is a 'chirp' [like a pulse] with a pulse-width [i.e. chirp duration] of roughly ~0.2 milliseconds.
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : Why is a Nd:YAG laser used instead of a laser with a shorter wavelength? AFAIK the measurement accuracy depends from the wavelength.
+
+Answer : Yes, it does - but the detector is so much more than the laser! Specifically, we have to choose a wavelength at which we can build optics and end mirrors that have the properties we're looking for. It turns out there are a lot of materials that you can use for 1064nm light. For future detectors, we're actually looking to upgrade to 1550nm light, because we can use crystalline Si for the mirrors which can be cooled cryogenically to reduce the coating noise even further. 
+
+Apart from that, it's actually really useful to have the laser at a wavelength our eyes are not sensitive to. Sure, adjusting things can be a bit more difficult since we have to work with viewer cards and photodiodes instead of just relying on our eyes - but it turns out a 180W laser is *really bright*. One of my colleagues once did an experiment where he frequency doubled a 10W 1064 laser (much less power!) to 532nm, which is the green colour you'd get in a green laserpointer. Even though the laser is focused, just the stray light that came from scattering was so bright you couldn't look at the beam. It's impossible to work with - not even taking into account that we need to wear eye protection, and for a visible light laser at 180W the protection would be completely opaque. 
+
+So it's a mix of available technologies and practical considerations that trump out the slight improvement in sensitivity we'd get from using a shorter wavelength. 
+
+Justus S, PhD student in high power laser development in Hannover, Germany
+
+Question : Reposting this.
+
+In the experiment you talk about the black hole merger releasing 3 solar masses worth of gravitational waves. I understand how this is possible due to conservation of energy and E=mc2 but I don't understand is where the energy is coming from. For example, if I'm understanding correctly, every time I move around (accelerate to be specific) I'm releasing very very weak gravity waves. Do these waves mean my mass is reducing every time I move? Do these act as basically a very weak resistance to my motion and instead steal from my kinetic energy? (Like the old concept of an aether in space?). Do these slowly steal energy from the orbits of planets around their stars? I'm also wondering how the gravity waves "choose" which form of energy to take from as there's presumably many sources of energy to choose from.
+
+
+Question : Hi all, I'm a reddit noob and this is my first 'Ask us anything'. 
+
+My question: What are the implications of finding gravitational waves on everyday human life, if any?
+
+Will anything change, are any fantastical inventions closer to existing etc.
+
+Answer : Without wanting to seem self-aggrandizing... you're in luck, some people have called this the best AMA in a long time ;) 
+
+Gravitational waves have a huge impact on how we observe the universe. So far, we've only been able to watch any object that emitted electromagnetic radiation - be it stars, nebulae, accretion disks, quasars... Anything that didn't radiate light was quite literally dark to us. 
+
+Now that we can use gravitational waves to observe the universe, theoretically everything that has mass is within our scope. So while before we could only see things, now we can listen to the universe. It's a very exciting time, and a new era of astronomy!
+
+As for everyday life - there is no direct implication that is immediately obvious. But on the other hand, most times something groundbreaking is discovered, those implications come with time! And even if there are no direct benefits, the LIGO Scientific Collaboration has developed many areas of technology so much further than they were before, until they were at the point where we needed them. This development is now available for mankind to use for whatever they can think of. So to that extent, I'm sure your life will be improved as a result of our research effort! 
+
+Justus S, PhD student in high power laser development in Hannover, Germany
+
+Question : What's the role of GEO 600 going ahead? I assume it's been retired from front line duty, but may still serve as a technology test-bed? 
+
+Answer : GEO 600 is not yet retired and is continuing to take science data with a very good up-time in a mode we call "astro watch". GEO is of course much less sensitive than the advanced LIGO detectors and it would take a lot of luck and an extraordinarily strong signal for GEO to be able to see anything. But since it would be such a pity if there was such a strong event and nobody would be listening, we are still doing our best to cover as much time as possible, especially when no LIGO detector is online.
+
+That said, GEO has always been a technology test-bed and this will be its primary function in the future. Examples of current work are new control techniques for beam alignment, correcting thermal deformations of the main interferometer optics, and improvement of the interferometers quantum noise (GEO is the first GW detector to regularly employ so called [squeezed light](http://www.squeezed-light.de/)). Testing such things not only in table-top experiment but also in a full-scale detector brings valuable experience for then using them in the advanced observatories.
+
+ES - PhD student at GEO 600, working with squeezed light
+
+Question : How do you feel that you've not only opened up a new frontier of astronomy, but also inadvertently opened up a new frontier on "Yo Momma" Jokes?  Such as:
+
+Yo Mamma so fat, when she danced, LIGO had to recalibrate their instruments
+
+Apologies in advance.... This is the internet
+
+Answer : Yesterday I talked to a friend in Germany (I'm in the US) and told him that we detected his mom dancing with a friend, so yes there has been a little of that.
+
+-VR PhD student, U of Oregon LIGO WA Site
+
+Question : Why are black holes considered to be holes?
+
+Answer : They're considered holes because that's how GR describes them as. It's as though they distort the surface of spacetime so far that it is practically punctured! Once you're in, there's no way out.
+BP - Glasgow University and LHO Fellow
+
+Question : It is my understanding that General Relativity makes a specific prediction about the polarization of gravitational waves. Was polarization measured during this experiment, or what would be required to measure it in future experiments?
+
+Answer : [Edited]
+
+This is probably a really naive answer [rather, most probably!]: If we linearise Einstein's Field Equations to derive the simplest analytical solution for wave-strain, we expect to observe the simplest first-order ~~spherical/~~circular polarisation. This is what you usually see in simulations where objects contract in one direction and expand in another. However, there are corrections to this solution which arise when we treat Einstein's Field Equations completely [or, when one considers a competing theory!]. The higher-than-linear-order contributions are very small for our sources and therefore, we do not explore them. Even if we wanted to, we'll need methods to separate those tinier effects in Data-analysis, as well as sensitive mechanics [more misaligned detectors?] to detect these offsets. [AlanW will elaborate more on it, taking into account the orientation of our detectors]
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : I'm curious about the detector. I just heard Neil deGrasse Tyson say it's so sensitive that it can detect quantum vibrations in the wires? Is this true?
+
+Answer : The detectors are indeed what we call *quantum noise limited* for certain frequencies. At these frequencies the only thing stopping us from detecting a signal is the noise arising from the momentum imparted to the mirrors by the photons, and the fact that photons are produced stochastically by the laser. We're basically trying to measure mirror motion that's smaller than the motion the mirror gets from the momentum of the photons hitting them. That still blows my mind. [SL, interferometry PhD student, Glasgow]
+
+Question : A lot of the talk I've heard surrounding the discovery of gravitational waves concerns its effect on the validity of Einstein's theories of relativity. How does the LIGO team feel about the discovery in terms of supporting his theoretical claims? Are there other major scientific claims affected by the outcome of the LIGO experiment as well?
+
+I'm so happy you guys were able to announce such a successful experimental result, and hopefully we can see more funding thrown your way and towards the general scientific community so we can make even more groundbreaking discoveries!
+
+Answer : This is basically the last big prediction of GR to be confirmed, so it's a milestone in that sense.  Considering that we are looking for GWs, I think it's logical that most of us here were hoping they existed!  And yes there are other scientific claims that LIGO has influenced or will influence.  This first detection's waveform already carried evidence that gravitons are spin-0 bosons.  We also calculated some limits on the mass of the graviton, which is of course related to its speed.
+
+-VR PhD Student U of Oregon, LIGO WA Site
+
+Question : Gravity Probe B's findings show that Earths rotation twists space-time, does that effect the result?  
+
+Answer : It agrees as far as I am aware.  Both frame dragging and GWs are predictions of GR (two important ones).
+
+-VR PhD Student U of Oregon, LIGO WA Site
+
+Question : is /will there any effort being made to actually determine the direction of this (or future) signals more exactly then 'southern hemispere'?
+
+Answer : Yes, asbsolutely.  If more detectors are built (which is happening) then we will have much more precise measurements of direction.  Some future GWs might also be accompanied by an EM counterpart, which would give us a very precise direction.  That would allow measurements of gravity's speed as well by comparing the two different signal's arrival times.
+
+-VR PhD Student U of Oregon, LIGO WA Site
+
+Question : that split second moment, when the two black holes combined and multiple solar masses worth of the two black holes were converted into gravity waves and otherwise disappeared ...  does a black hole also  dissipate on its own?   
+
+Answer : I'm a little confused how the first part of the question relates to the last part, but BH's do actually radiate away energy.  Technically.  That's Hawking's most famous work as far as I know.
+
+https://en.wikipedia.org/wiki/Hawking_radiation
+
+It works through quantum effects.  A spontaneously produced particle pair near the event horizon can have one get trapped while the other escapes, lowering the overall mass of the BH.
+
+-VR PhD student, U of Oregon LIGO WA Site
+
+Question : Is a gravity wave produced when regular stuff falls into a black hole?
+
+Answer : In principle, yes! Any time any mass is accelerated, it emits gravitational waves - as long as it's not perfectly spherically symmetric. The Earth going around the Sun produces tiny amounts of gravitational waves, as does anyone just shaking their hands or dancing. Or throwing small things into a black hole. But it would usually be so weak that not even a super-LIGO could detect it.
+
+With future space-based detectors (eLISA) we will look for what we call "extreme-mass ratio inspirals" - but even that would be a small black hole or a star into a huge black hole, not some "regular stuff" in the sense of a baseball or a book. Almost everything radiates; sadly not everything is detectable.
+
+DK (data analyst)
+
+Question : How would you explain to someone (like me) who has no idea what any of this means the importance of your discovery?
+
+Answer : When Galileo used a telescope to look at the sky for the first time, he opened up a new window on the universe. Soon, telescopes were able to see stars and galaxies from far away, and we learned more and more about the universe around us.
+
+LIGO is a new way to understand the universe, one that doesn't use light like a traditional telescope but gravitational waves. Our data is in the audio frequency range, so the analogy we use is that finally we can "listen" to the universe. This means we can start understanding things that we thought would exist and haven't seen before (such as black holes colliding), and hopefully things we didn't even imagine would exist!
+
+-MT, graduate student, quantum enhancement for aLIGO
+
+Question : I'm super scared of black holes, what's the most beautiful thing about them?
+
+Answer : https://en.wikipedia.org/wiki/Spaghettification
+
+Beautiful might not be the right word, but I enjoy this aspect.  Won't really help with your fear of BHs I guess.
+
+-VR PhD Student, U of Oregon LIGO WA Site
+
+Question : I still can't wrap my head around the fact that the mass of 3 suns simply evaporated and was released as these gravitational waves that were so weak by the time they reached us. Do we have any idea how often events like these happen? How strong were the waves (the strain) closer to the merger? Would they have had any catastrophic effects on bodies closer to the black holes? Lastly, is there any simple way to think of the mechanism that caused this sudden burst of energy, was it simply from the rapid motion of the black holes right before the merger?
+
+Answer : I think it's a struggle to get your head around, even when you work in the field :)
+
+GW150914 helped us to make a better estimate of how often we expect to see events like this, and we now think we'll see black hole mergers, like the one GW150914 came from, at a rate of between 2 and 400 per cubic gigaparsec, per year. We'll need to observe plenty more before we can have a better estimate though!
+
+If we were really close (within a few thousand miles) you'd be able to feel the wave passing through your body (a bit like standing next to a bass speaker at a music concert), but you'd need to be really close for the wave to be catastrophic.
+
+The energy was produced from the mass of the black holes. Einstein's theory of special relativity told us that E = mc^2, that energy was equal to the speed of light times the square of the speed of light. This conversion of matter into energy is what allows nuclear power to work, and it's the physical principle by which the energy for gravitational waves is produced.
+
+--DW (I work in burst [transient events] data analysis at the University of Glasgow, Scotland)
+
+Question : Can the oscillation of a charged particle in space due to passing gravitational waves result in photons being emitted?
+
+Answer : In nutshell, it is possible for a general charge distribution. [More detailed answer to follow]
+
+-- AvneetSingh, Observational Cosmology and Astrophysics, LIGO &amp; Max-Planck-Institut
+
+Question : How do you feel about [some people](https://news.google.com/news/story?ncl=dAP6OvrmKyrb9_M7g7Unhu69TjUkM&amp;q=b.o.b.+flat&amp;lr=English&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwis8IynhfPKAhWIVT4KHUqPD8gQqgIIMTAB) claiming that the Earth is flat in 2016?
+
+Answer : They should visit one of the LIGO sites (in Hanford, WA or Livingston, LA)!  The interferometer arms are so long that you can notice the curvature of the Earth.  The tubes have to be perfectly straight for the laser light but the ground they are on is curving away as you get closer to the ends.  --TBL
+
+Question : Dear scientist , telecommunication stent here, first I would like to congratulate you for this, not a scientist but I want to become one, so maybe this question will sound stupid.
+
+1) are gravitational waves related to electromagnetic waves, I mean it change them? 
+2) I'm interesting in the technical stream that you guys made , not the NSF , do you guys have a link of that stream
+
+Thank and I wish you the best 
+
+Answer : It's already been answered so I'll just add another line or two. EM waves correspond to photons and GWs correspond to gravitons. From a theoretical perspective both are massless bosons. So they are both (gravity and electromagnetism) long range forces that operate at the speed of light. They also have differences though. For example, GWs are tensor waves and EM waves are not. That basically means that an accelerating charge will emit EM waves but it takes acceleration of a system's quadrupole moment to emit GW waves. So there are differences with what causes them to be emitted.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : Did LIGO win the lottery? 
+
+Given the available information (if any) about the distribution of binary black hole systems, how often should a merger occur within an observable distance? Will LIGO ever see another merger again?
+
+Answer : Most of us expected the first detection to only be a matter of time, and I'm pretty sure if I played the lottery with that mind set I'd be broke pretty quickly! But I definitely like to think this event was the universe's way of rewarding us for our patience! :)
+
+Regarding the distribution of BBH systems -- yes! This result put excellent lower limits on the rate of BBH mergers. But it's still a pretty big range. If you consider everything from the 16 day stretch of data around this event, we can say that there are between 2 and 400 of these events per year per *gigaparsec cubed* (which is a -- very large -- measure of volume). 
+
+Further observations will help constrain that event rate even further! And yes, we absolutely expect to see more mergers in the years to come.
+
+~RC, post-doc, gravitational wave and gamma-ray astronomer at Texas Tech University
+
+[edit: affiliation]
+
+Question : How are gravitational waves related to gravity?  
+Was the new observation a measurement of difference in gravitational pull from the black holes due to the distance differences to earth while the black holes were revolving around each other?  
+Or are gravitational waves something completely different than gravity?
+
+Answer : Gravitational waves are a form of gravitational fields, but a different one than the "pull" we feel from the Earth. The unified description is given by Einstein's General Relativity, but the key difference is that the Earth's pull on us is mostly static, whereas gravitational waves are sent out by accelerating masses. They are travelling messengers of varying, extremely strong fields.
+
+So no, we didn't measure directly a change in the pull from those two black holes. Gravitational "pull" has infinite range, but it becomes extremely small at great distances (inverse square of the distance), and it overlaps with all of the other masses out there, so we couldn't measure the direct pull of these two black holes at all, nor the change when they collided and lost some of their mass. But that mass loss went into gravitational waves - energy that got free from its source and travelled out in all directions, and here on Earth we measured a tiny part of it pass through.
+
+DK (data analyst)
+
+Question : Is Einstein's original paper (in English) predicting gravitational waves available for access? Please post link.
+
+Answer : Einstein's paper with Nathan Rosen is available online here: http://www.sciencedirect.com/science/article/pii/S0016003237905830
+
+-- DW (Burst [unmodelled transients] analysis, at the University of Glasgow, Scotland)
+
+Question : Why does the collision/merger of two black holes emit energy in the form of gravitational waves and not some other form of energy? Or is it the case that gravitational waves are a fraction of the total energy released from the mass to energy conversion and that's what you were looking for/detected?
+
+Answer : It's hard to say. By their nature, black holes don't like to emit anything (that's how they get their name) except gravitational waves. We can't say for sure that 3 solar masses were radiated away as gravitational waves only, but we didn't see any other sign of this merger through EM telescopes or neutrinos (that doesn't mean that these other signs were not there)
+
+BP - IGR &amp; LHO Fellow
+
+Question : Hi guys!  This is obviously a very exciting discovery, and it is well timed on my part, since I'm doing a presentation on the LIGO project for my 4th year High Energy Astrophysics course in university. 
+
+My question:  Is there anything really cool/interesting about the LIGO project, or the LIGO detector array that not a lot of people know about that I could put into my presentation?
+
+Answer : From the paper:
+"The system reached a peak gravitational-wave luminosity of ~3.6 x 10^56 erg/s."  
+Supernova are ~10^51 erg/s, which is about 100000 times less intense.  
+This is by far the most powerful astrophysical event ever detected, in terms of luminosity.  (Luminosity is energy emitted per unit time)
+
+Craig
+
+Question : Now that you have demonstrated that laser beams are capable of detecting gravitational waves, what is the next step in the technology? What I mean to ask is, when are you planning on building a giant laser array telescope that you can point at deep space objects and solve the mysteries of Dark Matter?
+
+Answer : As much as I would like to believe that it's primarily the lasers that detected the waves, they would be useless without the detectors surrounding them. The lasers just provide a signal and thus are important as well, but the detector works as a whole. However, many of the technologies we developed using this will be useful in many other areas as well. As for other detectors, there are several more planned that will cover a much wider spectrum at even higher sensitivities in the future as well. 
+
+Justus S, PhD student in high power laser development, Hannover, Germany
+
+Question : What does the curve look like for a falling tree?
+
+And what sort of system would you need between massive bodies to recreate that curve? 
+
+Asking the important questions here. 
+
+Answer : We have only tumbleweeds here at LIGO Hanford, so far they did not show any effect on our measurements))
+
+DT, UTRGV
+
+Question : With the direct discovery of gravitational waves, are we any closer to uniting general relativity and quantum mechanics? If so, in what ways?
+
+Speaking of the "holy grails" of science, which ones would you have the most interest in? e.g. room temperature superconductor, nuclear fusion power, etc. if you couldn't choose quantum relativity?
+
+Third question (sorry!) How has the observations matched up with supercomputer models of mergers?
+
+Answer : We put a limit on graviton mass, which helps the the theory of quantum gravity, but for now, that's as much as we can do. But maybe we'll learn new fundamental knowledge along the way that will help uniting the two theories. For the second part, as physicists, we're interested in learning about any "holy grails" of science but for now let say gravitational wave astronomy is my personal pick. 
+T.C, grad student
+
+Question : How is it possible that the frequency of the gravitational waves match AF?  My question is how is it possible that we can actually hear the waves. It's quite incredible in my opinion.
+
+Answer : The actual waves are waves moving through spacetime, so they cannot be heard in any way.  The frequency of the wave depends on the source.  LIGO is built to detect BH binaries and neutron star binaries, so it's frequency dependent sensitivity is roughly ~10 - 300 Hz.  Other sources will have very different frequencies.  LISA for example is designed to observe low frequency waves, so detections that it makes will not be in the AF.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : So how soon do you think this information will be added into high school science textbooks? :P
+
+Answer : That's a good question. I wonder how much textbook writing pays... maybe I should go call a publisher. :P
+
+- AL, postdoc, detector characterization, AEI Hannover
+
+Question : Did you expect to have a positive signal so quickly after this LIGO upgrade? Or did you expect having to wait until further upgrades?
+
+Answer : Personally, I was not expecting it to happen.  Certainly not so cleanly and so soon.  I expected to have to wait and I expected the first detection to be faint and somewhat ambiguous.  Instead it was soon and it was loud.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : Does the detection of these waves actually prove Einsteins theory of relativity? 
+
+Answer : A theory can never be proven absolutely, but we can collect overwhelming evidence for it. Relativity (both special and general) have long been universally accepted as extremely good descriptions of reality and there are many verifications of its predicitions. For example the details of planetary orbits around the Sun (perihelion precession) and the gravitational deflection of stars close to the sun, both tested already in the 1910s. Or more modern tests with lunar laser ranging, detailed Solar system studies, gravitational lensing, cosmology, binary pulsars...
+
+...and now the one missing prediction: gravitational waves! It's not that anyone was seriously doubting their existence and the theory behind them, but it still took the world 100 years to actually nail that one.
+
+Now the open question is: what are the limits beyond which the theory needs modification? More gravitational wave observations will test in in unprecedented detail in previously unobservable extremely strong gravitational field situations, and maybe that will show some tiny deviations from GR that point to a deeper, underlying theory.
+
+But even if we ever find deviations, Einstein's theory will remain a) beautiful and b) true within a domain of applicability that encompasses all of everyday life and almost all of the observable universe. Newton's theory also wasn't falsified with modern experiments, it was just superseded an generalized by Einstein's.
+
+DK (data analyst)
+
+Question : How much energy does a gravitational wave carry?
+
+Is there an equation regarding it?
+
+Answer : This one carried approximately 3 solar masses of energy.  We know that from comparing the BH masses before and after the event.  Technically some of that energy could have been in the form of EM energy or something else.  For this situation that's the easiest way to get an energy.  There are GR equations and solutions that give that kind of information.  For a pretty simple example see "power radiated by orbiting bodies":
+
+https://en.wikipedia.org/wiki/Gravitational_wave
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : I live in Baton Rouge, think there's any chance I can get a tour of the Livingston Observatory?
+
+Answer : Definitely.  They do tours frequently I believe.  In fact, they have an entire building devoted to public outreach.  The Hanford site doesn't have that.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : Are gravitational waves affected by gravity? If light (basically EM radiation) bends round a mass, would gravitational waves bend too?
+
+I'm having difficulty with the concept of gravity being the wave and gravity bending round the body at the same time too. 
+
+Also, have gravitational waves passed through the event horizon of the two black holes colliding? Does this mean we can communicate through an event horizon?
+
+Answer : Yes, bending of gravitational waves around big masses (gravitational lensing) is expected. Also see these two questions/answers: https://www.reddit.com/r/IAmA/comments/45g8qu/we_are_the_ligo_scientific_collaboration_and_we/czxs3ng and https://www.reddit.com/r/IAmA/comments/45g8qu/we_are_the_ligo_scientific_collaboration_and_we/czxsi3b
+
+In fact, for gravity it's even crazier than for light: all mass and all energy gravitates, so even two passing gravitational waves (very slightly) bend each other.
+
+The event horizon is still the limit to what we can see, even with gravitational waves. But the merger of two black holes is so highly dynamical that we can (in principle) observe quite a lot of how the horizon of the merged object wiggles around right after the merger - the "ringdown" you see at the end of this figure from the detection announcement ( http://ligo.org/science/Publication-GW150914/images/fig-3.png ). It isn't measuread as cleanly as the first 2 stages in the case of GW150914, but will surely get very interesting in future observations.
+
+DK (data analyst)
+
+Question : We know that light waves can be bent by a significant source of gravity so my question is can gravity waves to bent by gravity?
+
+Question : I read that the collision of the black holes, for a moment, released 100x more energy than all the stars in the universe. I found that hard to believe. Is it true or not? If it is true, how long was this moment?
+
+E.g this article http://www.newyorker.com/tech/elements/gravitational-waves-exist-heres-how-scientists-finally-found-them
+
+Answer : More power.  That means more energy per time, which is very different.  That statement is true for a very small fraction of a second.  I think there were some inaccuracies in that article.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
+Question : So is LIGO working right now? Or are you giving it a break, since it did such a good job?  
+
+Answer : We have been commissioning (upgrading and doing work) in recent weeks.  LIGO is currently at about 1/3 of design sensitivity, so there is a lot of work to do.  If the sensitivity increases by a factor of 3 then the volume searched increases by a factor of 27 (V ~ r^3).  One of the important next steps is to increase the laser power in the arms.  Right now we are answering questions on Reddit, so this is kind of our break.
+
+-VR PhD student, U or Oregon LIGO WA Site
+
